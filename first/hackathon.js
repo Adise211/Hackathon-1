@@ -1,4 +1,4 @@
-console.log("hello");
+
 
 // Part 1: instruction ==> press button ==> invisible
 function pressToStart(){
