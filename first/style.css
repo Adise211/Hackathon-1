@@ -1,0 +1,226 @@
+body {
+	background-color: lightyellow;
+}
+
+#instruction > *:not(h1,button){
+	text-align: center;
+	font-size: 30px;
+
+}
+
+#instruction {
+	text-align: center;
+	position: relative;
+	top: 80px;
+
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+button {
+ 	text-align: center;
+	padding: 15px;
+	font-size: 20px;
+	background-color: yellow;
+	border-radius: 20px;
+	box-shadow: 10px 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	padding: 20px;
+	font-size: 25px;
+	border: 1px black solid;
+}
+
+.count > * {
+	text-align: center;
+}
+.countdown {
+	border: 2px black solid;
+	font-size: 60px;
+	background-color: coral;
+	text-align: center;
+	width: 25%;
+	padding: 70px;
+	font-weight: bold;
+	position: relative;
+	top: 200px;
+	left: 450px;
+}
+
+
+
+ .decription > * {
+ 	
+ 	border: 2px black dotted;
+ 	font-size: 20px;
+ 	margin-top: 10px;
+ 	width: 30%;
+ 	text-align: center;
+ 	position: relative;
+ 	top: 60px;
+ 	margin: 20px;
+ 	padding: 20px;
+ 	/*background-color: lightgray;	*/
+
+}
+
+
+.shapeSquere {    /* Squere */
+	width: 150px;
+  	height: 150px;
+  	background-color: red;
+  	position: relative;
+  	bottom: 400px;
+  	left: 800px;
+}
+
+.shapeRectangle {   /* Rectangle */
+	width: 200px;
+   	height: 100px;
+   	background-color: lightgreen;
+   	position: relative;
+   	bottom: 770px;
+   	left: 600px;
+}
+
+.shapeCircle {     /* Circle */
+	width: 150px;
+  	height: 150px;
+  	background-color: yellow;
+   	border-radius: 50%;
+   	position: relative;
+   	bottom: 800px;
+   	left: 1050px;
+
+}
+
+.shapeTriangle {    /* Triangle */
+	width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 120px solid blue;
+    position: relative;
+   	bottom: 500px;
+   	left: 900px;
+   	
+}
+
+/* Star */
+.shapeStar { 
+	margin: 50px 0;
+    position: relative;
+    bottom: 800px;
+    left: 1100px;
+    display: block;
+    color: pink;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid pink;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+    
+
+}
+
+.shapeStar::before {
+	border-bottom: 80px solid pink;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+ 	height: 0;
+	width: 0;
+	top: -45px;
+	left: -65px;
+	display: block;
+	content: '';
+	transform: rotate(-35deg);
+}
+
+.shapeStar::after {
+	position: absolute;
+    display: block;
+    color: pink;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid pink;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+}
+
+	
+
+
+.shapeLine {   /* Line */
+	width: 200px;
+   	height: 20px;
+   	background-color: #1C6F58;
+   	position: relative;
+   	bottom: 880px;
+   	left: 600px;
+
+}
+
+  /* Heart */
+.shapeHeart {
+    position: relative;
+    bottom: 800px;
+    left: 570px;
+    width: 100px;
+    height: 90px;
+}
+
+.shapeHeart:before,
+.shapeHeart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background-color: #B26BBC;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    }
+.shapeHeart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+
+.itsover {
+	border: 2px black solid;
+	font-size: 60px;
+	background-color: #A52A33;
+	text-align: center;
+	width: 25%;
+	padding: 100px;
+	font-weight: bold;
+	position: relative;
+	bottom: 1200px;
+	left: 450px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+    
+
